@@ -1,0 +1,314 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    /* height: 30px; */
+    padding: 12px;
+}
+
+.headerChild {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.nav {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.containerImage {
+    background: url(../assets/welcome-hero/welcome-banner.jpg);
+    /* width: auto; */
+    height: 830px;
+    padding-top: 1px;
+
+}
+
+.containerImageparentdiv {
+    padding-top: 100px;
+}
+
+.containerImagePara1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.containerImagePara2 {
+    color: white;
+    width: 730px;
+    display: flex;
+    align-items: center;
+    padding-left: 320px;
+    font-size: 21px;
+}
+
+.containerImageButton {
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 160px;
+    height: 40px;
+    margin-left: 45%;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.cardOverlap {
+    background-color: #fff;
+    gap: 20px;
+    width: 92%;
+    height: 350px;
+    margin-left: 25%;
+    transform: translate(-280px, -190px);
+    border-radius: 3px;
+    box-shadow: 0 10px 40px 0px rgba(38, 40, 64, .2);
+
+}
+
+.cardOverlapChild {
+    /* background-color: white;
+    width: 150px;
+    height: 40px; */
+    margin-top: 30px;
+    margin-left: 120px;
+
+}
+
+.cardOverlapSelectOptions {
+    /* background-color: white; */
+    width: 150px;
+    height: 40px;
+    padding: 8px;
+    background-color: #f8f8f8;
+}
+
+.lableHeadingscard {
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.cardoverlapButton {
+    width: 200px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: 120px;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.cardsParentDiv {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.cardChildDiv {
+    /* background-color: yellow; */
+    border: 1px solid grey;
+    height: 300px;
+    width: 300px;
+}
+
+.cardChildDivImage {
+    margin-left: 85px;
+    margin-top: 35px;
+}
+
+.cardChildDiv:hover {
+    background-color: blue;
+    color: white;
+}
+
+.NewestCarHeading {
+    text-align: center;
+    color: 444a57;
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.NewestCarImage {
+    width: 646px;
+    /* height: 300px; */
+    padding-top: 40px;
+}
+
+.NewestCarHeadingParent {
+    display: flex;
+    margin-left: 80px;
+}
+
+.NewestCarHeadingPara {
+    margin-left: 70px;
+    color: 444a57;
+}
+
+.NewestCarHeading2 {
+    color: 444a57;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.NewestCarButton {
+    background-color: blue;
+    border: none;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.featuredCarHeading1 {
+    text-align: center;
+    color: 444a57;
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.featuredCarParent {
+    display: flex;
+}
+
+.featuredCarImage {
+    /* width: 100px;
+    height: 100px; */
+    border: 1.5px solid grey;
+}
+
+.featuredCarImagePara {
+    border: 1.5px solid grey;
+    margin-left: 61px;
+    margin-top: 30px;
+}
+
+.FeaturedCars {
+    text-align: center;
+    margin-top: 90px;
+
+}
+
+.featuredBox {
+    width: 100%;
+    height: 400px;
+}
+
+.featuredBox1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bmwTitle {
+    display: flex;
+}
+
+.nextBoxTitle {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.clientsSysParent {
+    margin-top: 120px;
+}
+
+.clientsHeading1 {
+    /* text-align: center; */
+    text-align: center;
+    color: 444a57;
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.clientsCardParent {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+    gap: 75px;
+}
+
+.clientsCardChild {
+    text-align: center;
+    border: 1px solid grey;
+    height: 320px;
+    width: 340px;
+}
+
+.clientsCardChildPara {
+    width: 280px;
+    padding-left: 10px;
+}
+
+.clientsCardChildImage {
+    margin-top: 57px;
+}
+
+.clientsBothHeading {
+    line-height: 0;
+}
+
+.bransImages1 {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+}
+
+.footer {
+    background-color:#2a2d54;
+    height: 350px;
+    margin-top: 150px;
+    color: white;
+}
+
+.footerParent {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 35px;
+}
+
+.footerThirdlist {
+    padding-top: 40px;
+}
+
+.footerUl {
+    text-transform: capitalize;
+    margin-right: 10px;
+}
+
+.footerHeading {
+    margin-left: 20px;
+}
+.footerCopyRight{
+    display: flex;
+    justify-content: center;
+}
